@@ -61,8 +61,8 @@ object Dependencies {
   )
 
   lazy val cassandraDeps = Seq(
-    "com.datastax.cassandra" % "cassandra-driver-core" % cassandra,
-    "com.datastax.cassandra" % "cassandra-driver-mapping" % cassandra
+    //"com.datastax.cassandra" % "cassandra-driver-core" % cassandra,
+    //"com.datastax.cassandra" % "cassandra-driver-mapping" % cassandra
   )
 
   lazy val logbackDeps = Seq(
