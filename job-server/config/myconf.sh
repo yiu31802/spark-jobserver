@@ -1,6 +1,6 @@
 # Environment and deploy file
 # For use with bin/server_deploy, bin/server_package etc.
-DEPLOY_HOSTS="jptolx22168"
+DEPLOY_HOSTS="jptolx23074"
 
 APP_USER=22709479
 APP_GROUP=CORPUSERS
@@ -13,7 +13,7 @@ PIDFILE=spark-jobserver.pid
 JOBSERVER_MEMORY=1G
 SPARK_VERSION=2.0.2
 MAX_DIRECT_MEMORY=512M
-SPARK_HOME=/home/CORPUSERS/22709479/Downloads/spark-2.0.2-bin-hadoop2.7/
+SPARK_HOME=/home/CORPUSERS/22709479/bin/spark-2.0.2-bin-hadoop2.7/
 SPARK_CONF_DIR=$SPARK_HOME/conf
 # Only needed for Mesos deploys
 # SPARK_EXECUTOR_URI=/home/spark/spark-1.6.0.tar.gz
